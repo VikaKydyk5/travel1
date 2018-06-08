@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(background.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.travel1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 115px;
+}
+
+.holidays {
+    justify-content: space-between;
+    padding-left: 700px;
+}
+.contact {
+    font-size: 13px;
+    font-family: "Tahoma";
+    color: gray;
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 50px;
+}
+.contacts{
+    color: gray;
+}
+
+.palma {
+    background-image: url("palmtree.png");
+    opacity: 0.149;
+    position: absolute;
+    left: 150px;
+    top: 7px;
+    width: 125px;
+    height: 147px;
+    z-index: 41;
+}
+
+.slogan {
+    font-size: 13px;
+    font-family: "Tahoma";
+    color: rgb(230, 230, 230);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 80px;
+    top: 104.438px;
+    z-index: 42;
+}
+
+.logo {
+    background-image: url("logo.png");
+    position: absolute;
+    left: 10px;
+    top: 62px;
+    width: 263px;
+    height: 37px;
+    z-index: 43;
+}
+
+.container {
+    width: 825px;
+    min-height: 400px;
+    margin: 0 auto;
+    /*    background-color: red;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.asia {
+    width: 261px;
+    height: 178px;
+    border: 2px double gray;
+    font-size: 18px;
+    font-family: "Tahoma";
+    color: rgb(230, 230, 230);
+    line-height: 1.2;
+    text-align: center;
+    position: relative;
+    margin: 40px 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.title {
+    width: 261px;
+    color: white;
+    position: absolute;
+    bottom: -25px;
+    text-align: center;
+}
+
+.India {
+    background-image: url("india_photo.png");
+}
+
+.Nepal {
+    background-image: url("nepal_photo.png");
+}
+
+.Tibet {
+    background-image: url("tibet_photo.png");
+}
+
+.Bhutan {
+    background-image: url("bhutan_photo.png");
+}
+
+.SriLanka {
+    background-image: url("sri-lanka_photo.png");
+}
+
+.Maldives {
+    background-image: url("maldives_photo.png");
+}
+
+.copy {
+    width: 100%;
+    font-size: 12px;
+    font-family: "Tahoma";
+    color: rgb(230, 230, 230);
+    line-height: 1.2;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+    .asia {
+        width: 34vw;
+        height: 23vw;
+    }
+    .title {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .asia {
+        width: 87vw;
+        height: 56vw;
+    }
+}
